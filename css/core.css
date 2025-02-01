@@ -1,0 +1,62 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.banner img{
+    height:40vh;
+    border-radius: 20px; /* Arrondir les coins */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Ombre douce */
+    display: block;
+    margin: 50px auto; /* Centrer l'image */
+}
+
+
+
+@media (max-width: 800px) {
+    #page_content{
+        width: 100vw!important;
+    }
+}
+
+#page_content{
+    width: 800px; /* Largeur fixe */
+    margin: 0 auto; /* Centre horizontalement */
+    text-align: center; /* Pour centrer le texte à l'intérieur */
+    padding-top: 20px;
+}
+
+/* Conteneur principal */
+.social-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    height: 10vh; /* Prend toute la hauteur de l'écran */
+}
+
+/* Liste des liens sociaux */
+#social_links {
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    display: flex; /* Met en ligne les icônes */
+    gap: 15px; /* Ajoute un espacement entre les éléments */
+}
+
+#social_links li {
+    display: flex;
+}
+
+#social_links a {
+    text-decoration: none;
+    background-color: #007bff; /* Couleur de fond (ex: bleu) */
+    color: white;
+    padding: 20px 20px;
+    height:50px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 50px;
+}
