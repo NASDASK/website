@@ -27,6 +27,9 @@ html,body{
     .banner img{
         height:25vh;
     }
+    .content{
+        padding: 0 20px;
+    }
 }
 
 #page_content{
