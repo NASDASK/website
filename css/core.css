@@ -52,11 +52,11 @@ html,body{
 
 #social_links a {
     text-decoration: none;
-    background-color: #007bff; /* Couleur de fond (ex: bleu) */
+    background-color: #333; /* Couleur de fond (ex: bleu) */
     color: white;
-    padding: 20px 20px;
-    height:50px;
+    padding: 10px 10px;
+    height:25px;
     border-radius: 5px;
     display: inline-block;
-    font-size: 50px;
+    font-size: 25px;
 }
